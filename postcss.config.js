@@ -3,7 +3,7 @@ const tailwindcss = require('tailwindcss');
 
 // PostCSS yapılandırma nesnesini dışa aktarıyoruz
 module.exports = {
-  // PostCSS eklentilerini belirtiyoruz
+  // PostCSS eklenti belirtiyoruz
   plugins: [
     // Tailwind CSS eklentisini ekliyoruz ve tailwind.js konfigürasyon dosyasını belirtiyoruz
     tailwindcss('./tailwind.js'),
